@@ -1,0 +1,44 @@
+body {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'vcr_osd_monoregular';
+
+
+}
+
+.wrapper {
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+.content {
+  float: right;
+  display: inline-block;
+  text-align: center;
+}
+
+.character {
+  display: inline-block;
+}
+
+a,
+.link {
+  color: #86A9C6;
+  text-decoration: none;
+}
+
+.links {
+
+}
+
+.projects {
+  float: left;
+  text-align: left;
+}
+
+.blog {
+  float: right;
+  text-align: left;
+}
