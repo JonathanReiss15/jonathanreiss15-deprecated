@@ -1,11 +1,21 @@
+
+@font-face {
+  font-family: 'vcr_osd_monoregular';
+  src: url('font/vcr_osd_mono_1.001-webfont.woff2') format('woff2'),
+       url('font/vcr_osd_mono_1.001-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 body {
   margin-left: 50px;
   margin-right: 50px;
   font-family: 'vcr_osd_monoregular';
-
-
 }
 
+.header {
+  text-align: center;
+}
 .wrapper {
   width: 750px;
   margin-left: auto;
@@ -23,10 +33,17 @@ body {
   display: inline-block;
 }
 
-a,
-.link {
+#email {
+  color: #86A9C6;
+}
+
+a {
   color: #86A9C6;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .links {
@@ -41,4 +58,28 @@ a,
 .blog {
   float: right;
   text-align: left;
+}
+
+.postwrapper {
+  font-family: 'Helvetica';
+  background-color: grey;
+  width: 60%;
+  display: block;
+  margin: auto;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+.posttitle {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 2em;
+  justify-content: center;
+}
+
+
+.postbody {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 20%;
 }
