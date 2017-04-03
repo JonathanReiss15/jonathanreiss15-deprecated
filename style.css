@@ -62,7 +62,7 @@ a:hover {
 
 .postwrapper {
   font-family: 'Helvetica';
-  background-color: grey;
+  /*background-color: grey;*/
   width: 60%;
   display: block;
   margin: auto;
@@ -73,7 +73,7 @@ a:hover {
 .posttitle {
   text-align: center;
   margin-top: 10px;
-  font-size: 2em;
+  font-size: 1.5em;
   justify-content: center;
 }
 
@@ -89,4 +89,24 @@ a:hover {
   width: 58%;
   display: block;
   margin: auto;
+}
+
+.blockquote {
+  border-left: 3px solid #86A9C6;
+  background-color: inherit;
+  padding-left: 10px;
+  font-style:italic;
+  font-family: serif;
+}
+
+.blockquoteauthor {
+  text-align: right;
+  border-left: 3px solid #86A9C6;
+  font-style: normal;
+  text
+}
+
+.authorbio {
+  border-top: 3px solid black;
+  margin: inherit;
 }
