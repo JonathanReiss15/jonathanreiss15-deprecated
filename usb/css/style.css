@@ -23,6 +23,11 @@ form {
   margin-top: 20px;
 }
 
+.center {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
 /* Navigation */
 .page-header {
   margin-top: 20px;
@@ -53,7 +58,7 @@ img.logo {
   padding-left: 0px;
 
   position: absolute;
-  bottom: 2px;
+  bottom: 20px;
   right: 0;
 }
 
@@ -84,7 +89,9 @@ img.logo {
 
 .title {
   text-align: center;
-  color: #B51622;
+  padding-bottom: 10px;
+
+  /*color: #B51622;*/
 }
 
 .textcontent {
@@ -99,7 +106,9 @@ img.logo {
   margin-bottom: 15px;
 }
 
-
+.textcontent p {
+  margin-top: 25px;
+}
 /*
   -------------- Page title decoration --------------
 */
@@ -168,6 +177,10 @@ img.logo {
   display: block;
 }
 
+#videotitle {
+  font-weight: 800;
+}
+
 .videoembed p {
   text-align: center;
 }
@@ -175,7 +188,7 @@ img.logo {
 .videos {
   background-color: #AEBBC1;
   padding: 20px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .videos h1 {

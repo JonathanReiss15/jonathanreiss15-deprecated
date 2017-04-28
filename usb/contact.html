@@ -19,17 +19,16 @@
           <img id="logo" class="logo" src="img/logo.jpeg">
         </div>
         <div class="col-sm-4 slogan">
-          <h4>Better Mechanics Through Science</h4>
+          <h3>"Better Mechanics Through Science"</h3>
         </div>
         <div class="col-sm-5 nav-links">
-          <a href="index.html"><strong>HOME</strong></a>
-          <a href="membership.html"><strong>MEMBERSHIP</strong></a>
           <a href="contact.html"><strong>CONTACT</strong></a>
-          <div id="homeof"><strong><i>Home of the patentable swing</i></strong></div>
+          <a href="membership.html"><strong>MEMBERSHIP</strong></a>
+          <a href="index.html"><strong>HOME</strong></a>
+          <!-- <div id="homeof"><strong><i>Home of the Patentable Swing</i></strong></div> -->
         </div>
       </div>
     </div>
-
     <div class="container-fluid title">
       <h1 class="decorated"><span>Contact Us</span></h1>
     </div>
@@ -46,16 +45,37 @@
           <div class="form-group row">
             <label for="name" class="col-sm-2 col-form-label">Full Name</label>
             <div class="col-sm-10">
-              <input type="email" class="form-control" id="inputName" placeholder="Full Name">
+              <input type="text" class="form-control" id="inputName" placeholder="Full Name">
             </div>
           </div>
 
           <div class="form-group row">
             <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
             <div class="col-sm-10">
-              <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+              <input type="email" class="form-control" id="email" placeholder="Email">
             </div>
           </div>
+
+          <div class="form-group row">
+            <label for="phoneNumber" class="col-sm-2 col-form-label">Phone Number</label>
+            <div class="col-sm-10">
+              <input type="tel" class="form-control" id="phonenumber" placeholder="Phone">
+            </div>
+          </div>
+
+          <fieldset class="form-group row">
+            <label for="demographic" class="col-sm-2 col-form-label">Preferred Method of Contact</label>
+            <div class="col-sm-10">
+              <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Email </label>
+              </div>
+              <div class="form-check form-check-inline">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Phone </label>
+              </div>
+            </div>
+          </fieldset>
 
           <fieldset class="form-group row">
             <!-- <legend class="col-form-legend col-sm-2">Radios</legend> -->
@@ -63,24 +83,30 @@
             <div class="col-sm-10">
               <div class="form-check">
                 <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                  <input class="form-check-input" type="radio" name="gridRadios" id="coach" value="option1" checked>
                   I am a coach.
                 </label>
               </div>
               <div class="form-check">
                 <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="player" value="option2">
                   I am a baseball player.
                 </label>
               </div>
-
+              <div class="form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="parent" value="option2">
+                  I am a parent/guardian.
+                </label>
+              </div>
           </fieldset>
+
           <div class="form-group row">
             <div class="col-sm-offset-2 col-sm-10">
               <div class="form-check">
                 <label class="form-check-label">
                   <input class="form-check-input" type="checkbox">
-                  I would like a membership form emailed to me.
+                  I would like a Membership Form emailed to me for review.
                 </label>
               </div>
             </div>
@@ -89,7 +115,7 @@
           <div class="form-group row">
             <label for="exampleTextarea" class="col-sm-2 col-form-label">Message</label>
             <div class="col-sm-10">
-              <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Enter your message here"></textarea>
+              <textarea class="form-control" id="message" rows="3" placeholder="Enter your message here"></textarea>
             </div>
           </div>
 
@@ -103,8 +129,16 @@
 
 
     <footer>
-      US Baseball Club, Inc. &copy; <script type="text/javascript"> document.write(new Date().getFullYear());</script> All rights reserved.<br>
-      Created by <a href="http://jonnyreiss.com">Reiss Creative</a>
+
+      <div class="patentableswing">
+        <img class="center" src="img/baseballbats.png">
+        <h3 class="title">Home of the Patentable Swing</h3>
+      </div>
+      <div class="copyright center">
+        US Baseball Club, Inc., a 501(c)(3) non-profit organization, &copy; <script type="text/javascript"> document.write(new Date().getFullYear());</script> All rights reserved.<br>
+        Created by <a href="http://jonnyreiss.com">Reiss Creative</a>
+      </div>
+
     </footer>
 
     <!-- Scripts -->
