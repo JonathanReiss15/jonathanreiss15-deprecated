@@ -1,3 +1,9 @@
+/*
+------------------------------
+          General
+------------------------------
+*/
+
 body {
   padding-left: 40px;
   padding-right: 40px;
@@ -28,7 +34,9 @@ form {
   margin: auto;
   text-align: center;
 }
+
 /* Navigation */
+
 .page-header {
   margin-top: 20px;
   position: relative;
@@ -85,8 +93,11 @@ img.logo {
   float: right;
 }
 
-/* Content */
-
+/*
+------------------------------
+          Content
+------------------------------
+*/
 .title {
   text-align: center;
   padding-bottom: 10px;
@@ -96,6 +107,9 @@ img.logo {
 
 .textcontent {
   font-size: 1.25em;
+  margin-bottom: 40px;
+  margin-top: 40px;
+
 }
 
 .textcontent img {
@@ -109,9 +123,11 @@ img.logo {
 .textcontent p {
   margin-top: 25px;
 }
+
 /*
   -------------- Page title decoration --------------
 */
+
 .decorated{
      overflow: hidden;
      text-align: center;
@@ -135,24 +151,40 @@ img.logo {
     left: 100%;
 }
 
-/* Home Page Specific CSS*/
-
+/*
+------------------------------
+          Index.html
+------------------------------
+*/
 .unlimited {
   margin-top: 25px;
 }
 
 #unlimited h1 {
   color: #B51622;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #unlimited ul {
   font-size: 1.25em;
+  display: inline-block;
 }
 
+#unlimited li {
+  /*display: inline-block;*/
+}
 #unlimited strong {
   font-weight: 800;
 }
+
+#unlimited {
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+  text-align: center;
+}
+
 .myths {
   margin-top: 20px;
 }
@@ -205,17 +237,26 @@ img.logo {
   margin-top: 5px;
 }
 
-/* Contact Form */
+/*
+------------------------------
+          Contact
+------------------------------
+*/
 
 #submitform {
   background-color: #122356;
   float: right;
 }
 
-/* Footer */
+/*
+------------------------------
+          Footer
+------------------------------
+*/
+
 footer {
   margin-top: 30px;
-  padding: 10px;
+  padding: 20px;
   text-align: left;
   background-color: #B51622;
   color: white;
