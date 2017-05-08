@@ -2,3 +2,7 @@
 $( "#logo" ).click(function() {
   window.location.href = 'index.html';
 });
+
+document.getElementById("submitform").addEventListener("click", function(){
+    sendEmail();
+});
