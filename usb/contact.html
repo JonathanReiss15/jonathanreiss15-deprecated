@@ -41,7 +41,7 @@
       </div> -->
 
       <div class="container">
-        <form class="col-md-offset-2 col-md-8">
+        <form class="col-md-offset-2 col-md-8" id="contactForm">
           <div class="form-group row">
             <label for="name" class="col-sm-2 col-form-label">Full Name</label>
             <div class="col-sm-10">
@@ -52,14 +52,14 @@
           <div class="form-group row">
             <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
             <div class="col-sm-10">
-              <input type="email" class="form-control" id="email" placeholder="Email">
+              <input type="email" class="form-control" id="inputEmail" placeholder="Email">
             </div>
           </div>
 
           <div class="form-group row">
             <label for="phoneNumber" class="col-sm-2 col-form-label">Phone Number</label>
             <div class="col-sm-10">
-              <input type="tel" class="form-control" id="phonenumber" placeholder="Phone">
+              <input type="tel" class="form-control" id="inputPhone" placeholder="Phone">
             </div>
           </div>
 
@@ -68,11 +68,11 @@
             <div class="col-sm-10">
               <div class="form-check form-check-inline">
                 <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Email </label>
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions[]" id="emailMethod" value="email" checked> Email </label>
               </div>
               <div class="form-check form-check-inline">
                 <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Phone </label>
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions[]" id="phoneMethod" value="phone"> Phone </label>
               </div>
             </div>
           </fieldset>
@@ -83,19 +83,19 @@
             <div class="col-sm-10">
               <div class="form-check">
                 <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="gridRadios" id="coach" value="option1" checked>
+                  <input class="form-check-input" type="radio" name="iama" id="coach" value="coach" checked>
                   I am a coach.
                 </label>
               </div>
               <div class="form-check">
                 <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="gridRadios" id="player" value="option2">
+                  <input class="form-check-input" type="radio" name="iama" id="player" value="player">
                   I am a baseball player.
                 </label>
               </div>
               <div class="form-check">
                 <label class="form-check-label">
-                  <input class="form-check-input" type="radio" name="gridRadios" id="parent" value="option2">
+                  <input class="form-check-input" type="radio" name="iama" id="parent" value="parent">
                   I am a parent/guardian.
                 </label>
               </div>
@@ -105,7 +105,7 @@
             <div class="col-sm-offset-2 col-sm-10">
               <div class="form-check">
                 <label class="form-check-label">
-                  <input class="form-check-input" type="checkbox">
+                  <input class="form-check-input" type="checkbox" name="membership" id="membershipForm">
                   I would like a Membership Form emailed to me for review.
                 </label>
               </div>
@@ -142,11 +142,19 @@
     </footer>
 
     <!-- Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+    <script src="js/jquery-3.2.1.min.js"></script>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <script src="js/main.js"></script>
+    <script src="js/form.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+       (function(){
+          emailjs.init("user_a4OrECwhbSJFVaDdQC4nZ");
+       })();
+    </script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
