@@ -6,5 +6,4 @@ $( "#logo" ).click(function() {
 document.getElementById("submitform").addEventListener("click", function(e){
     sendEmail();
     e.preventDefault();
-
 });

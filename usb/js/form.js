@@ -87,7 +87,10 @@ function sendEmail() {
   console.log('Send email called');
   emailjs.send("gmail", "contactform", {"name":getName(),"email":getEmail(),"phone":getPhone(),"method":getMethod(),"iam":getIama(),"formpreference":getFormPreference(),"message":getMessage()}).then(function(response) {
      console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+     $("#successarea").html("Your message has been sent!");
   }, function(err) {
      console.log("FAILED. error=", err);
+     $("#successarea").html("Your message could not be sent.  Please contact gfrost@usbaseball.org directly.");
+
   });
 }
