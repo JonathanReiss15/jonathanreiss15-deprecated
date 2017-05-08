@@ -84,7 +84,7 @@ function getMessage() {
 function sendEmail() {
   // ajax query to send mail using API
   // fields are pulled from other functions
-
+  console.log('Send email called');
   emailjs.send("gmail", "contactform", {"name":getName(),"email":getEmail(),"phone":getPhone(),"method":getMethod(),"iam":getIama(),"formpreference":getFormPreference(),"message":getMessage()}).then(function(response) {
      console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
   }, function(err) {
