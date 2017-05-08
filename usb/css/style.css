@@ -61,14 +61,14 @@ img.logo {
 .nav-links {
   width: 80%;
   display: inline;
-  /*float: right;*/
-
+  text-align: right;
   padding-right: 0px;
   padding-left: 0px;
 
   position: absolute;
   bottom: 10px;
   right: 0;
+
 }
 
 .nav-links a {
@@ -81,9 +81,8 @@ img.logo {
   color: #122356;
   border-top: solid #B51622;
   font-size: 1.5em;
-  display: inline;
-  float: right;
-
+  display: inline-block;
+  /*float: right;*/
 }
 
 #homeof {
@@ -236,6 +235,7 @@ img.logo {
 .video iframe {
   display: block;
   margin: auto;
+  padding-bottom: 20px;
 }
 
 .video p {
@@ -294,4 +294,14 @@ footer a {
   .nav-links {
     position: relative;
   }
+}
+
+@media (max-width: 400px) {
+  #logo {
+    width: 100%;
+  }
+}
+
+@media (min-width: 498px) {
+  .rwd-break { display: none; }
 }
