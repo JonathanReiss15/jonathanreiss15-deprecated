@@ -51,9 +51,10 @@ a:hover {
 }
 
 .projects {
-  float: left;
-  text-align: left;
+  text-align: center;
 }
+
+
 
 .blog {
   float: right;
