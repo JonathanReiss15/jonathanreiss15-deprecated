@@ -8,32 +8,8 @@
 }
 
 body {
-  margin-left: 50px;
-  margin-right: 50px;
   font-family: 'vcr_osd_monoregular';
-}
-
-.header {
-  text-align: center;
-}
-.wrapper {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 50px;
-}
-
-.content {
-  float: right;
-  display: inline-block;
-  text-align: center;
-  padding-right: 10px;
-}
-
-.character {
-  display: inline-block;
-  max-width: 100px;
-  margin-right: 40px;
+  padding: 20px;
 }
 
 #email {
@@ -49,68 +25,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.links {
-
-}
-
-.projects {
+.info {
   text-align: center;
-}
-
-
-
-.blog {
-  float: right;
-  text-align: left;
-}
-
-.postwrapper {
-  font-family: 'Helvetica';
-  /*background-color: grey;*/
-  width: 60%;
-  display: block;
-  margin: auto;
-  padding-bottom: 10px;
-  border-radius: 10px;
-}
-
-.posttitle {
-  text-align: center;
-  margin-top: 10px;
-  font-size: 1.5em;
-  justify-content: center;
-}
-
-
-.postbody {
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 20%;
-}
-
-.disqus {
-  padding-top: 50px;
-  width: 58%;
-  display: block;
-  margin: auto;
-}
-
-.blockquote {
-  border-left: 3px solid #86A9C6;
-  background-color: inherit;
-  padding-left: 10px;
-  font-style:italic;
-  font-family: serif;
-}
-
-.blockquoteauthor {
-  text-align: right;
-  border-left: 3px solid #86A9C6;
-  font-style: normal;
-  text
-}
-
-.authorbio {
-  border-top: 3px solid black;
-  margin: inherit;
 }
