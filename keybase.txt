@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jonathanreiss
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jonnyreiss.com
+  * I am jonathanreiss (https://keybase.io/jonathanreiss) on keybase.
+  * I have a public key ASDTJtu6ugLT1QYsmv051JDvtwFwK8s4N7zu_RTu1HgIKwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d326dbbaba02d3d5062c9afd39d490efb701702bcb3837bceefd14eed478082b0a",
+      "host": "keybase.io",
+      "kid": "0120d326dbbaba02d3d5062c9afd39d490efb701702bcb3837bceefd14eed478082b0a",
+      "uid": "1cafc191c4bad7c7f5b03de367b2a619",
+      "username": "jonathanreiss"
+    },
+    "merkle_root": {
+      "ctime": 1571987069,
+      "hash": "671244b5da9f99c037a8dc5ca8fa8bd9784023aadd08e0bf4ec6c938e9617d5f75996f5824dee30d368e902cfe9b6bc3a04584a956992be27ddacf658d2967db",
+      "hash_meta": "e4cafb79f2772689d67abd21364037651e180527489f7b0f4216c0f5360d1c2a",
+      "seqno": 8386226
+    },
+    "service": {
+      "entropy": "tgvA7nrfOqB74eiygpBfJJ9d",
+      "hostname": "jonnyreiss.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.7.0"
+  },
+  "ctime": 1571987084,
+  "expire_in": 504576000,
+  "prev": "3088a2adf252d68ba71f9642af3cf40e01faef10e706d0f0bd7d9a2c17d620b9",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg0ybburoC09UGLJr9OdSQ77cBcCvLODe87v0U7tR4CCsKp3BheWxvYWTESpcCB8QgMIiirfJS1ounH5ZCrzz0DgH67xDnBtDwvX2aLBfWILnEIK9vGRYXdx9Kn/jLRgaXJWtWYFY5FKNJ/Eppiro2CdFtAgHCo3NpZ8RAEvh4ijwGvM0sptjleMZRM5zv8d7dGZ14jYPg9ipEW5VzWTWUbZjDiylcw/orP3j/cHWBP7XO0dTumzr6l1UcAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFsluIVf6lv7DZO28Xrj+cG9uPQOtUcwgXaJbLRKMD20o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jonathanreiss
+
+==================================================================
